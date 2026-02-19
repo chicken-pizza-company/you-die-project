@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
     @PostMapping
     public ResponseEntity<?> signup() {
-        return ResponseEntity.ok("회원가입 썩쎄쓰!!");
+        return ResponseEntity.ok("회원가입이 정상적으로 처리되었어요 하하호호");
     }
 }
